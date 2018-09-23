@@ -11,7 +11,7 @@ import java.util.Set;
 public class Simulator {
 	
 	private final static int CHANCE = 60;
-	private final static int NUM_RUNS = 1000000;
+	private final static int NUM_RUNS = 100_000;
 	
 	private final static Random rand = new Random(GregorianCalendar.getInstance().getTimeInMillis());
 	
@@ -67,85 +67,31 @@ public class Simulator {
 	private static void recordWeeks(PlayerScore player) {
 		switch (player.name) {
 		case "bobby": 
-			player.setWeek(1, 3);
-			player.setWeek(2, 9);
-			player.setWeek(3, 11);
-			player.setWeek(4, 8);
-			player.setWeek(5, 8);
-			player.setWeek(6, 0);
-			player.setWeek(7, 8);
-			player.setWeek(8, 9);
-			player.setWeek(9, 8);
-			player.setWeek(10, 8);
-			player.setWeek(11, 8);
+			player.setWeek(1, 7);
+			player.setWeek(2, 11);
 				return;
 		case "harshal":
-			player.setWeek(1, 12);
-			player.setWeek(2, 12);
-			player.setWeek(3, 8);
-			player.setWeek(4, 8);
-			player.setWeek(5, 9);
-			player.setWeek(6, 10);
-			player.setWeek(7, 7);
-			player.setWeek(8, 7);
-			player.setWeek(9, 10);
-			player.setWeek(10, 8);
-			player.setWeek(11, 9);
+			player.setWeek(1, 11);
+			player.setWeek(2, 6);
 				return;
 		case "maureen":
-			player.setWeek(1, 9);
-			player.setWeek(2, 9);
-			player.setWeek(3, 7);
-			player.setWeek(4, 8);
-			player.setWeek(5, 7);
-			player.setWeek(6, 7);
-			player.setWeek(7, 9);
-			player.setWeek(8, 8);
-			player.setWeek(9, 10);
-			player.setWeek(10, 7);
-			player.setWeek(11, 11);
+			player.setWeek(1, 10);
+			player.setWeek(2, 7);
 				return;
 		case "rob":
 			player.setWeek(1, 9);
-			player.setWeek(2, 11);
-			player.setWeek(3, 7);
-			player.setWeek(4, 8);
-			player.setWeek(5, 8);
-			player.setWeek(6, 9);
-			player.setWeek(7, 9);
-			player.setWeek(8, 9);
-			player.setWeek(9, 10);
-			player.setWeek(10, 7);
-			player.setWeek(11, 9);
+			player.setWeek(2, 8);
 				return;
 		case "brian":
 			player.setWeek(1, 10);
-			player.setWeek(2, 9);
-			player.setWeek(3, 7);
-			player.setWeek(4, 6);
-			player.setWeek(5, 8);
-			player.setWeek(6, 10);
-			player.setWeek(7, 8);
-			player.setWeek(8, 9);
-			player.setWeek(9, 11);
-			player.setWeek(10, 7);
-			player.setWeek(11, 11);
+			player.setWeek(2, 8);
 				return;
 		case "monal":
-			player.setWeek(1, 11);
-			player.setWeek(2, 10);
-			player.setWeek(3, 10);
-			player.setWeek(4, 9);
-			player.setWeek(5, 7);
-			player.setWeek(6, 1);
-			player.setWeek(7, 10);
-			player.setWeek(8, 7);
-			player.setWeek(9, 10);
-			player.setWeek(10, 6);
-			player.setWeek(11, 8);
+			player.setWeek(1, 8);
+			player.setWeek(2, 8);
 				return;
-			default:
-				System.out.println("ISSUE WITH PLAYER NAME");
+		default:
+			System.out.println("ISSUE WITH PLAYER NAME");
 		}
 		
 	}
@@ -155,15 +101,15 @@ public class Simulator {
 		regularWeeks.add(17);//2
 		regularWeeks.add(17);//3
 		regularWeeks.add(16);//4
-		regularWeeks.add(15);//5
+		regularWeeks.add(16);//5
 		regularWeeks.add(16);//6
-		regularWeeks.add(16);//7
-		regularWeeks.add(14);//8
+		regularWeeks.add(15);//7
+		regularWeeks.add(15);//8
 		regularWeeks.add(14);//9
 		regularWeeks.add(15);//10
-		regularWeeks.add(15);//11
-		regularWeeks.add(17);//12
-		regularWeeks.add(16);//13
+		regularWeeks.add(14);//11
+		regularWeeks.add(16);//12
+		regularWeeks.add(17);//13
 		regularWeeks.add(17);//14
 		regularWeeks.add(17);//15
 		regularWeeks.add(17);//16
