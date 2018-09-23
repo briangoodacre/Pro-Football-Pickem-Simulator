@@ -272,7 +272,7 @@ public class Simulator {
 					.sorted()
 					.collect(Collectors.toList());
 			int removedWeeks = 0;
-			while (removedWeeks < 2 && sortedScores.size() > 2) {
+			while (removedWeeks < 2 && sortedScores.size() > 1) {
 				Integer minimumScore = Collections.min(sortedScores);
 				sortedScores.remove(minimumScore);
 				removedWeeks++;
