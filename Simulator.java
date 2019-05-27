@@ -75,6 +75,63 @@ public class Simulator {
 
 	private static void recordWeeks(PlayerScore player) {
 		switch (player.name) {
+			case "brian":
+				player.setWeek(1, 10);
+				player.setWeek(2, 8);
+				player.setWeek(3, 9);
+				player.setWeek(4, 11);
+				player.setWeek(5, 11);
+				player.setWeek(6, 11);
+				player.setWeek(7, 9);
+				player.setWeek(8, 10);
+				player.setWeek(9, 7);
+				player.setWeek(10, 8);
+				player.setWeek(11, 8);
+				player.setWeek(12, 11);
+				player.setWeek(13, 9);
+				player.setWeek(14, 9);
+				player.setWeek(15, 9);
+				player.setWeek(16, 10);
+				player.setWeek(17, 11);
+				return;
+			case "rob":
+				player.setWeek(1, 9);
+				player.setWeek(2, 8);
+				player.setWeek(3, 10);
+				player.setWeek(4, 10);
+				player.setWeek(5, 5);
+				player.setWeek(6, 8);
+				player.setWeek(7, 6);
+				player.setWeek(8, 11);
+				player.setWeek(9, 7);
+				player.setWeek(10, 10);
+				player.setWeek(11, 5);
+				player.setWeek(12, 12);
+				player.setWeek(13, 11);
+				player.setWeek(14, 8);
+				player.setWeek(15, 8);
+				player.setWeek(16, 12);
+				player.setWeek(17, 12);
+				return;
+			case "maureen":
+				player.setWeek(1, 10);
+				player.setWeek(2, 7);
+				player.setWeek(3, 7);
+				player.setWeek(4, 10);
+				player.setWeek(5, 10);
+				player.setWeek(6, 9);
+				player.setWeek(7, 10);
+				player.setWeek(8, 10);
+				player.setWeek(9, 8);
+				player.setWeek(10, 7);
+				player.setWeek(11, 7);
+				player.setWeek(12, 11);
+				player.setWeek(13, 11);
+				player.setWeek(14, 9);
+				player.setWeek(15, 7);
+				player.setWeek(16, 10);
+				player.setWeek(17, 12);
+				return;
 			case "bobby":
                 player.setWeek(1, 7);
                 player.setWeek(2, 11);
@@ -87,58 +144,12 @@ public class Simulator {
 				player.setWeek(9, 8);
 				player.setWeek(10, 8);
 				player.setWeek(11, 7);
-				return;
-			case "harshal":
-                player.setWeek(1, 11);
-                player.setWeek(2, 6);
-				player.setWeek(3, 6);
-				player.setWeek(4, 8);
-				player.setWeek(5, 10);
-				player.setWeek(6, 10);
-				player.setWeek(7, 8);
-				player.setWeek(8, 8);
-				player.setWeek(9, 0);
-				player.setWeek(10, 7);
-				player.setWeek(11, 8);
-				return;
-			case "maureen":
-                player.setWeek(1, 10);
-                player.setWeek(2, 7);
-				player.setWeek(3, 7);
-				player.setWeek(4, 10);
-				player.setWeek(5, 10);
-				player.setWeek(6, 9);
-				player.setWeek(7, 10);
-				player.setWeek(8, 10);
-				player.setWeek(9, 8);
-				player.setWeek(10, 7);
-				player.setWeek(11, 7);
-				return;
-			case "rob":
-                player.setWeek(1, 9);
-                player.setWeek(2, 8);
-				player.setWeek(3, 10);
-				player.setWeek(4, 10);
-				player.setWeek(5, 5);
-				player.setWeek(6, 8);
-				player.setWeek(7, 6);
-				player.setWeek(8, 11);
-				player.setWeek(9, 7);
-				player.setWeek(10, 10);
-				player.setWeek(11, 5);
-				return;
-			case "brian":
-                player.setWeek(1, 10);
-                player.setWeek(2, 8);
-				player.setWeek(3, 9);
-				player.setWeek(4, 11);
-				player.setWeek(5, 11);
-				player.setWeek(6, 11);
-				player.setWeek(7, 9);
-				player.setWeek(8, 10);
-				player.setWeek(9, 7);
-				player.setWeek(10, 8);
-				player.setWeek(11, 8);
+				player.setWeek(12, 11);
+				player.setWeek(13, 10);
+				player.setWeek(14, 7);
+				player.setWeek(15, 8);
+				player.setWeek(16, 11);
+				player.setWeek(17, 9);
 				return;
 			case "monal":
                 player.setWeek(1, 8);
@@ -152,6 +163,31 @@ public class Simulator {
 				player.setWeek(9, 6);
 				player.setWeek(10, 7);
 				player.setWeek(11, 7);
+				player.setWeek(12, 11);
+				player.setWeek(13, 10);
+				player.setWeek(14, 11);
+				player.setWeek(15, 8);
+				player.setWeek(16, 10);
+				player.setWeek(17, 9);
+				return;
+			case "harshal":
+				player.setWeek(1, 11);
+				player.setWeek(2, 6);
+				player.setWeek(3, 6);
+				player.setWeek(4, 8);
+				player.setWeek(5, 10);
+				player.setWeek(6, 10);
+				player.setWeek(7, 8);
+				player.setWeek(8, 8);
+				player.setWeek(9, 0);
+				player.setWeek(10, 7);
+				player.setWeek(11, 8);
+				player.setWeek(12, 0);
+				player.setWeek(13, 0);
+				player.setWeek(14, 0);
+				player.setWeek(15, 0);
+				player.setWeek(16, 0);
+				player.setWeek(17, 0);
 				return;
 			default:
 				System.out.println("ISSUE WITH PLAYER NAME");
